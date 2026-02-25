@@ -1,0 +1,30 @@
+### Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+### Secrets / local env
+.env
+
+### Local data
+patient_bundles/
+compose/data/
+compose/pgdata/
+
+### Generated outputs
+output/*
+!output/fhirpath-qa-benchmark.jsonl
+!output/fhirpath-qa-large.jsonl
+
+### Optional paraphrasing artifacts (manual review exports, intermediate files)
+paraphrasing/*.csv
+paraphrasing/*.tsv
+paraphrasing/*.log
+
+### Intermediate paraphrase outputs (if generated)
+fhirpath_gen/template_paraphrases_*.json
+
+### Scratch
+scratch_files/
+
