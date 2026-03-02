@@ -1,6 +1,6 @@
 # FHIRPath-QA
 
-Code + data for FHIRPath-QA.
+Code + data for FHIRPath-QA. [Paper](https://arxiv.org/pdf/2602.23479).
 
 ## Released datasets
 
@@ -180,10 +180,12 @@ If you use this dataset or code, please cite our paper (coming soon):
 
 ```bibtex
 @misc{frew2026fhirpathqa,
-  title        = {FHIRPath-QA: Executable Question Answering over FHIR Electronic Health Records},
-  author       = {Frew, Michael and Bheda, Nishit and Tripp, Bryan},
-  year         = {2026},
-  note         = {Under review},
-  institution  = {University of British Columbia and University of Waterloo}
+      title={FHIRPath-QA: Executable Question Answering over FHIR Electronic Health Records}, 
+      author={Michael Frew and Nishit Bheda and Bryan Tripp},
+      year={2026},
+      eprint={2602.23479},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.23479}, 
 }
 ```
