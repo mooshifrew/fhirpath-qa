@@ -1,6 +1,6 @@
 # FHIRPath-QA
 
-Code + data for FHIRPath-QA. [Paper](https://arxiv.org/pdf/2602.23479).
+Code + data for FHIRPath-QA. [DOI](https://doi.org/10.63317/5q8qi6jqnz56), [arxiv](https://arxiv.org/pdf/2602.23479).
 
 ## Released datasets
 
@@ -176,16 +176,19 @@ MIT License. See `LICENSE`.
 
 ## Citation
 
-If you use this dataset or code, please cite our paper (coming soon):
+If you use this dataset or code, please cite the paper:
 
 ```bibtex
-@misc{frew2026fhirpathqa,
-      title={FHIRPath-QA: Executable Question Answering over FHIR Electronic Health Records}, 
-      author={Michael Frew and Nishit Bheda and Bryan Tripp},
-      year={2026},
-      eprint={2602.23479},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.23479}, 
+@inproceedings{frew-etal-2026-fhirpath,
+  title = {FHIRPath-QA: Executable Question Answering over FHIR Electronic Health Records },
+  author = {Frew, Michael and Bheda, Nishit and Tripp, Bryan},
+  booktitle = {Proceedings of the Third Workshop on Patient-Oriented Language Processing (CL4Health) @ LREC 2026},
+  month = {May},
+  year = {2026},
+  pages = {1--14},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Gupta, Deepak and Thompson, Paul and Ananiadou, Sophia and Demner-Fushman, Dina},
+  doi = {10.63317/5q8qi6jqnz56},
 }
 ```
